@@ -11,17 +11,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: "Manrope", sans-serif;
 }
 
 .card {
   width: 500px;
-  min-height: 250px;
+  min-height: 300px;
   border-radius: 14px;
   background-color: hsl(217, 19%, 24%);
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   position: relative;
   margin: 0 20px;
 }
@@ -38,11 +39,12 @@ body {
 }
 
 .advice {
-  color: #fff;
+  color: hsl(193, 38%, 86%);
   text-align: center;
   padding: 0 10%;
   font-size: 1.5em;
   line-height: 140%;
+  margin: 20px 0;
 }
 
 .divider {
@@ -51,7 +53,7 @@ body {
   background-image: url("/assets/divider-desktop.svg");
   background-repeat: no-repeat;
   background-position: center;
-  margin: 10px 0;
+  margin-top: 10px;
 }
 
 .dice {
