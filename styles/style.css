@@ -37,6 +37,9 @@ body {
 
 .advice {
   color: #fff;
+  text-align: center;
+  padding: 0 10%;
+  font-size: 1.5em;
 }
 
 .divider {
@@ -45,6 +48,7 @@ body {
   background-image: url("/assets/divider-desktop.svg");
   background-repeat: no-repeat;
   background-position: center;
+  margin: 10px 0;
 }
 
 .dice {
@@ -56,6 +60,7 @@ body {
   border-radius: 50%;
   cursor: pointer;
   transition: 0.3s ease-in-out;
+  outline: 0;
 }
 
 .dice:hover {
