@@ -23,12 +23,14 @@ body {
   align-items: center;
   justify-content: space-evenly;
   position: relative;
+  margin: 0 20px;
 }
 
 .title {
   color: hsl(150, 100%, 66%);
   font-size: 14px;
   font-weight: bold;
+  margin-top: 10px;
 }
 
 #advice-id {
@@ -40,6 +42,7 @@ body {
   text-align: center;
   padding: 0 10%;
   font-size: 1.5em;
+  line-height: 140%;
 }
 
 .divider {
@@ -65,4 +68,11 @@ body {
 
 .dice:hover {
   box-shadow: 0 0 10px 15px hsl(148, 31%, 50%);
+}
+
+@media screen and (max-width: 500px) {
+  .divider {
+    background-image: url("/assets/divider-mobile.svg");
+    margin-bottom: 50px;
+  }
 }
