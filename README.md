@@ -1,3 +1,3 @@
 # advice-app
 
-a challenge from [frontendmentor.io](frontend mentor)
+a challenge from [frontend mentor](frontendmentor.io)
