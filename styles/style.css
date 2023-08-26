@@ -68,6 +68,10 @@ body {
   outline: 0;
 }
 
+.disable {
+  background-color: hsl(150, 100%, 6%);
+}
+
 .dice:hover {
   box-shadow: 0 0 10px 15px hsl(148, 31%, 50%);
 }
